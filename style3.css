@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    /* font-family: Raleway; */
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    /* background-color: black; */
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#passage a {
+    text-decoration: none;
+
+}
+#passage{
+    border:3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 20px;
+    
+}
+#tool-main-heading{
+    text-decoration: underline;
+    text-align: center;
+    /* display: flex; */
+    font-size: 4rem;
+    margin: auto;
+    text-shadow: 4px 4px 4px #aaa;
+}
+#tool-sub-heading{
+    text-decoration: underline;
+    text-align: center;
+    /* display: flex; */
+    font-size: 20px;
+    margin-top: auto;
+    text-shadow: 4px 4px 4px #aaa;
+    
+}
+#button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin:auto;
+  display:block;
+  margin-top: 100%;
+
+ 
+}
+
+#button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#loading{
+    width: 100%;
+    height: 100vh;
+    background: #fff url('loading.gif') no-repeat center;
+    z-index: 9999;
+}
+
+
+  

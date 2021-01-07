@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    /* font-family: Raleway; */
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+#title{
+    text-align: center;
+    margin: 10px;
+}
+#nav{
+    padding: 5px;
+    background-color: gainsboro;
+}
+#sub_title{
+    text-align: center;
+}
+#sub_title_2{
+    text-align: center;
+}
+#btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a_social_media{
+    text-decoration: none; color: black;
+}
+.a_social_media:hover{
+    text-decoration: none; color: rgb(70, 69, 69);
+}
