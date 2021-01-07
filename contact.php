@@ -96,7 +96,7 @@
                 <div class="col-md-6" style="margin-top: 20px;" id="card_1">
                     
                     <div class="form-group col-md-8">
-                    <form action="" method="post" id="form">
+                    <form action="contact.php" method="post" id="form">
                         <input type="text" name="msg" class="form-control" id="name" placeholder="Your Name">
                         <br>
                         <input type="email" name="email"class="form-control" id="mail" placeholder="Email">
